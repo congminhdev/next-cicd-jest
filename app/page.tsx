@@ -10,8 +10,9 @@ export default function Home() {
                         Get started by editing{' '}
                         <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">app/page.tsx</code>.
                     </li>
-                    <li>Save and see your changes instantly.</li>
-                    <li>Item 1</li>
+                    <li className="mb-2">Save and see your changes instantly.</li>
+                    <li className="mb-2">Item 1</li>
+                    <li className="mb-2">Item 2</li>
                 </ol>
 
                 <div className="flex gap-4 items-center flex-col sm:flex-row">
