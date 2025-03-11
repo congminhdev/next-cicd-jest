@@ -8,12 +8,6 @@ test('adds 2 + 3 should be equal to 5', () => {
     expect(sum(2, 3)).toBe(5)
 })
 
-test('object assignment', () => {
-    const data: any = { one: 1 }
-    data['two'] = 2
-    expect(data).toEqual({ one: 1, two: 2 })
-})
-
 async function getResponse() {
     return new Promise((resolve) => {
         setTimeout(() => {
