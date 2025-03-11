@@ -26,3 +26,7 @@ test('async getResponse should return Hello World', async () => {
     const response = await getResponse()
     expect(response).toEqual({ value: 'Hello World' })
 })
+
+test('This text minhtest should be find in minhtestinput', () => {
+    expect('minhtestinput').toMatch(/minhtest/)
+})
