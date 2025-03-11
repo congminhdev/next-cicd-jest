@@ -8,6 +8,10 @@ test('adds 2 + 3 should be equal to 5', () => {
     expect(sum(2, 3)).toBe(5)
 })
 
+test('adds 4 + 5 should be equal to 5', () => {
+    expect(sum(4, 5)).toBe(9)
+})
+
 async function getResponse() {
     return new Promise((resolve) => {
         setTimeout(() => {
